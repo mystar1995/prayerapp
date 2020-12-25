@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1019701435873",
+    "firebase_url": "https://prayer-app-v2.firebaseio.com",
+    "project_id": "prayer-app-v2",
+    "storage_bucket": "prayer-app-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019701435873:android:ac61c2dc17b369ef",
+        "android_client_info": {
+          "package_name": "com.bitloft.prayerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019701435873-c9ivphsb9183suht9f4tsnkfdghe49fo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bitloft.prayerapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1019701435873-h8q8q33oj8gcg60845snh5hg8jb356ot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bitloft.prayerapp",
+            "certificate_hash": "edbbf6ea35e12b83ae0f758c3be9188ca6bfe2d2"
+          }
+        },
+        {
+          "client_id": "1019701435873-ovtsa93t3l95pvnblln2s3sen4rueck2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxd2V1A83MjOohvPuApgCOf7PGhS3Vqf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019701435873-tpnfsgotmqjqhjibsc2ob5r06rnr970t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1019701435873-aduphgfa6vigao6iv1b97odjvjpqm7dv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitloft.prayerApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

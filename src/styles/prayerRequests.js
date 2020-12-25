@@ -1,0 +1,167 @@
+import {StyleSheet, Dimensions} from 'react-native';
+
+const height = Dimensions.get('window').height,
+  width = Dimensions.get('window').width;
+
+export default StyleSheet.create({
+  container: {
+    width: width,
+    height: height,
+    paddingLeft:24,
+    paddingRight:24
+  },
+  backgroundImage: {
+    width: width,
+    height: height,
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    bottom: 0,
+    top: 0,
+    opacity: 0.3,
+  },
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    overflow: 'hidden',
+  },
+  pageHeader: {
+    fontSize: 28,
+    color: '#333',
+    fontWeight: 'bold',
+    marginTop: 12,
+  },
+  filterButton: {
+    backgroundColor: '#EB237D',
+    padding: 8,
+    borderRadius: 5,
+  },
+  filterIcon: {
+    color: 'white',
+  },
+  sliderContainer: {
+    position: 'relative',
+    width: width,
+    maxWidth: 360,
+    marginTop: 24,
+    paddingHorizontal: 12,
+  },
+  filterText: {
+    textAlign: 'center',
+    fontSize: 18,
+    color: '#EB237D',
+    fontWeight: 'bold',
+  },
+  requestCell: {
+    backgroundColor: 'white',
+    borderRadius: 5,
+    flex:1,
+    marginBottom: 24,
+    padding: 18,
+  },
+  requestTitle: {
+    color: '#444',
+    fontWeight: 'bold',
+    fontSize: 20,
+    marginBottom: 6,
+  },
+  requestDate: {
+    marginBottom: 6,
+    fontWeight: 'bold',
+    textTransform: 'uppercase',
+    color: '#444',
+    opacity: 0.8,
+  },
+  requestPerson: {
+    marginBottom: 6,
+    color: '#444',
+    opacity: 0.8,
+  },
+  prayerContent: {
+    color: '#444',
+    fontSize: 16,
+  },
+  fulfillRequestButton: {
+    paddingVertical: 16,
+    paddingHorizontal: 24,
+    flexDirection: 'row',
+    flexWrap: 'nowrap',
+    alignItems: 'center',
+    alignContent: 'center',
+    justifyContent: 'center',
+    borderRadius: 5,
+  },
+  fulfillRequestButtonText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  fulfillmentCount: {
+    color: '#444',
+  },
+  endOfRequests: {
+    marginTop: 12,
+    marginBottom: 54,
+    alignItems: 'center',
+  },
+  endOfRequestsText: {
+    color: 'rgba(68, 68, 68, .5)',
+    fontSize: 16,
+    marginBottom: 8,
+    textAlign: 'center',
+  },
+  newPrayerRequestButton: {
+    position: 'absolute',
+    bottom: 120,
+    padding: 16,
+    flexDirection: 'row',
+    flexWrap: 'nowrap',
+    alignItems: 'center',
+    alignContent: 'center',
+    justifyContent: 'center',
+    alignSelf: 'center',
+    borderRadius: 32,
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    width: 'auto',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.125,
+    shadowRadius: 3.5,
+
+    elevation: 3,
+  },
+  newPrayerRequestButtonText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  newPrayerRequestContainer: {
+    backgroundColor: 'white',
+    borderRadius: 5,
+    maxWidth: 360,
+    marginLeft: 20,
+    marginRight: 20,
+    padding: 18,
+  },
+  newRequestTitle: {
+    color: '#444',
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  newRequestInput: {
+    color: 'black',
+    backgroundColor: '#ebebeb',
+    marginBottom: 20,
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    borderRadius: 5,
+    fontSize: 16,
+    overflow: 'hidden',
+    marginTop: 12,
+    lineHeight: 22,
+  },
+});
